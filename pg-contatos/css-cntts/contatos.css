@@ -1,0 +1,212 @@
+html {
+    background-color: white;
+}
+#todas {
+    width: 50%;
+    height: auto;
+}
+#topo {
+ height: 50px;
+}
+#sacola {
+    width: 2%;
+    height: auto;
+    position: absolute;
+    left: 95%;
+    bottom: 91.7%;
+    position: absolute;
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 10px;
+    min-width: 10px;
+}
+#lupa {
+    width: 3%;
+    height: auto;
+    position: absolute;
+    left: 91%;
+    bottom: 88%;
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 10px;
+    min-width: 10px;
+}
+#coracao {
+    width: 3%;
+    height: auto;
+    position: absolute;
+    left: 87.5%;
+    bottom: 88%;
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 10px;
+    min-width: 10px;
+}
+
+#contate-nos {
+    font-family: IBMPlexMono,sans-serif,-apple-system;
+    position: absolute;
+    left: 12%;
+    bottom: 92%;
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 10px;
+    min-width: 10px;
+}
+#contate-nos >a {
+    color: black;
+    text-decoration: none;
+}
+#video {
+    position: absolute;
+    bottom: -9%;
+    text-align: center center;
+    left: 10%;
+}
+.navbar {
+    display: flex;
+    width: 100vw;
+    background: white;
+    margin-top: 10px;
+    justify-content: center ;
+    gap: 16px;
+}
+.navbar>div {
+    font-family: IBMPlexMono,sans-serif,-apple-system;
+}
+#imagemtopo {
+    position: absolute;
+    left: 45vw;
+    width: 94px;
+}
+
+#esta-off {
+    width: 100vw;
+}
+#ask {
+    font-family: IBMPlexMono,sans-serif,-apple-system;
+    position: absolute;
+    left: 12%;
+    bottom: -19%;
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 10px;
+    min-width: 10px;  
+}
+#login {
+    width: 3%;
+    height: auto;
+    position: absolute;
+    left: 83%;
+    bottom: 92.5%;
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 10px;
+    min-width: 10px;
+}
+#escolhas {
+    position: absolute;
+    left: 11%;
+    bottom: -135%;
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 10px;
+    min-width: 10px;
+}
+.imagens-promo > img {
+    width: clamp(100px, 17%, 3300px);
+}
+.imagens-promo {
+    display: flex;
+    width: 100vw;
+    gap: 20px;
+    justify-content: space-evenly;
+   margin-top: 60em;
+    
+}
+#marque {
+    position: absolute;
+    top: 0;
+}
+
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color:black;
+    position: relative;
+    display: none;
+
+  }
+  .topnav img {
+    width: 20px;
+    filter: invert(1);
+    
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: transparent;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: transparent;
+    color: white;
+    height: 20px;
+  }
+
+
+
+
+
+
+
+
+/*celular*/
+@media only screen and (max-width: 575px) {
+.navbar
+ {
+    display: none;
+}
+#lupa, 
+#coracao,
+#sacola{
+    display: none;
+} 
+.imagens-promo {
+    flex-wrap: wrap;
+}
+.imagens-promo > img {
+    width: clamp(150px, 30%, 200px);
+}
+.topnav {
+    display: block;
+}
+}
+
+
