@@ -108,11 +108,106 @@ html {
 .imagens-promo {
     display: flex;
     width: 100%;
-    gap: 0.5em;
-    justify-content: space-evenly;
-   margin-top: 60em;
+    height: auto;
+    margin-left: -5em;
+    gap: 2em;
+    justify-content: space-around;
+    margin-top: 1em;
+    flex-direction: row;
     
 }
+
+#promo {
+    max-width: clamp(9.375em, 30%, 12.5em);
+    font-size: 0.8vh;
+
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+    /* padrão (mobile) */
+
+html {
+    width: 98%;
+
+    background: white;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+#container {
+    width: 100%;
+    height: auto;
+    min-height: 20vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    width: 100%;
+    height: auto;
+    min-height: 22vh;
+
+    margin: .2rem 0;
+}
+
+/* inicio nav */
+
+#nav {
+    width: 100%;
+    min-height: 5vh;
+    background-color: white;
+
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+#list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+#list a{
+    text-decoration: none;
+    color: blue;
+}
+
+nav ul li {
+    margin-right: 25px;
+}
+
+#dc {
+    float: left;
+    margin-right: 10px;
+}
+
+#img {
+    width: 100%;
+    height: auto;
+
+    min-width: 40em;
+}
+
 #marque {
     width: 95%;
 
@@ -172,10 +267,20 @@ html {
   }
 
 
+  #rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    margin-top: 20em;
+    text-align: center;
+    font-size: 1vh;
+  }
 
-
-
+  #off-rodape {
+    max-height: 8em;
+    max-width: 8em;
+  }
 
 
 /*celular*/
@@ -192,13 +297,15 @@ html {
 .imagens-promo {
     width: 95%;
     flex-wrap: wrap;
+    flex: content;
 }
 .imagens-promo > img {
-    width: clamp(150px, 30%, 200px);
+
 }
 .topnav {
     display: block;
 }
+
 }
 
 

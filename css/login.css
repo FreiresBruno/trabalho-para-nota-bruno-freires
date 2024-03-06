@@ -1,6 +1,8 @@
 html {
     background-color: white;
 }
+
+
 #todas {
     width: 50%;
     height: auto;
@@ -47,7 +49,7 @@ html {
     font-family: IBMPlexMono,sans-serif,-apple-system;
     position: absolute;
     left: 12%;
-    bottom: 92%;
+    bottom: 93%;
     display: flex;
     flex-flow: row nowrap;
     min-height: 10px;
@@ -98,7 +100,7 @@ html {
     height: auto;
     position: absolute;
     left: 83%;
-    bottom: 92.5%;
+    bottom: 93.5%;
     display: flex;
     flex-flow: row nowrap;
     min-height: 10px;
@@ -199,10 +201,14 @@ html {
 }
 }
 #redor{
+    margin-top: 5%;
+    margin-left: 38%;
     border:2px solid black;
     padding: 1%;
     width: 20%;
-    display: block;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
 

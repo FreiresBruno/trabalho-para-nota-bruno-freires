@@ -1,12 +1,17 @@
 html {
     background-color: white;
 }
+
+
 #todas {
     width: 50%;
     height: auto;
 }
 #topo {
  height: 50px;
+ display: flex;
+ justify-content: center;
+
 }
 #sacola {
     width: 2%;
